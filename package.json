@@ -1,0 +1,17 @@
+{
+  "name": "pratyaksh-hotel-spa",
+  "version": "1.0.0",
+  "private": true,
+  "description": "A heritage-inspired hotel website and PostgreSQL booking API for Pratyaksh Hotel & Spa, Jaipur.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "express": "^4.21.2",
+    "pg": "^8.13.1"
+  }
+}

@@ -1,0 +1,115 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f6f0e5">
+  <meta name="description" content="A soulful Jaipur haveli reborn as Pratyaksh Hotel & Spa. Discover royal rooms, restorative rituals and thoughtful Rajasthani hospitality.">
+  <title>Pratyaksh Hotel & Spa — A Jaipur Haveli, Reimagined</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/styles.css">
+  <script src="/app.js" defer></script>
+</head>
+<body>
+  <div class="announcement"><span>JAIPUR, RAJASTHAN</span><span class="announcement-dot">✳</span><span>A little more magic, every day.</span></div>
+  <header class="site-header">
+    <a class="brand" href="#home" aria-label="Pratyaksh Hotel & Spa home">
+      <span class="brand-mark" aria-hidden="true">P</span>
+      <span class="brand-name">PRATYAKSH<small>HOTEL &amp; SPA · JAIPUR</small></span>
+    </a>
+    <button class="menu-toggle" aria-label="Open navigation" aria-expanded="false">☰</button>
+    <nav class="main-nav" aria-label="Main navigation">
+      <a href="#story">Our story</a><a href="#rooms">Stay</a><a href="#experiences">Experiences</a><a href="#journal">The journal</a>
+      <a class="nav-book" href="#booking">RESERVE YOUR STAY <span>↗</span></a>
+    </nav>
+  </header>
+  <main>
+    <section class="hero" id="home" aria-label="Welcome to Pratyaksh Hotel and Spa">
+      <div class="hero-image"></div>
+      <div class="hero-shade"></div>
+      <div class="hero-content reveal">
+        <p class="eyebrow light"><span>✳</span> AN INTIMATE JAIPUR HAVELI</p>
+        <h1>Find your own<br><em>kind of royal.</em></h1>
+        <p class="hero-copy">Where the old city slows down, and every detail feels like it was meant just for you.</p>
+        <a class="button button-gold" href="#rooms">DISCOVER YOUR STAY <span>↗</span></a>
+      </div>
+      <div class="hero-caption"><span>26° 55' N&nbsp; · &nbsp;75° 49' E</span><span>THE PINK CITY, INDIA</span></div>
+      <a class="scroll-cue" href="#story"><span></span> SCROLL TO WANDER</a>
+      <div class="hero-seal" aria-hidden="true"><span>JAIPUR · RAJASTHAN · INDIA</span><b>✳</b><span>MADE OF MOMENTS</span></div>
+    </section>
+
+    <section class="intro section-pad" id="story">
+      <div class="intro-side reveal"><span class="eyebrow"><span>✳</span> A PLACE WITH A PULSE</span><div class="intro-stamp">P<br><small>JAIPUR</small></div></div>
+      <div class="intro-copy reveal">
+        <h2>Some places stay<br>with you <em>long after.</em></h2>
+        <p>Behind a rose-washed doorway in the heart of Jaipur, a centuries-old haveli opens its doors. Sunlit courtyards, hand-painted walls and the unhurried warmth of a home that knows how to welcome.</p>
+        <a class="text-link" href="#experiences">THE PRATYAKSH WAY <span>⟶</span></a>
+      </div>
+      <figure class="intro-photo reveal"><img src="https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?auto=format&fit=crop&w=1200&q=85" alt="Sunlit, warm-toned heritage-inspired hotel lounge with elegant arches"><figcaption>01 / A SLOWER KIND OF STAY</figcaption></figure>
+      <div class="intro-note">ROOTED IN RAJASTHAN <span>✳</span> MADE FOR THE MOMENT</div>
+    </section>
+
+    <section class="rooms-section" id="rooms">
+      <div class="section-heading reveal"><div><span class="eyebrow"><span>✳</span> YOUR OWN LITTLE WORLD</span><h2>Rooms with <em>a story.</em></h2></div><p>Each room is a love letter to the craft, colour and quiet poetry of Rajasthan.</p></div>
+      <div class="carousel-wrap">
+        <button class="carousel-arrow prev" aria-label="Scroll rooms left">←</button>
+        <div class="room-track" id="roomTrack" tabindex="0" aria-label="Available rooms">
+          <article class="room-card">
+            <div class="room-image"><img src="https://images.unsplash.com/photo-1611892440504-42a792e24d32?auto=format&fit=crop&w=1100&q=85" alt="Serene boutique hotel room with a beautifully dressed king bed"><span class="room-number">01</span></div>
+            <div class="room-info"><div><p class="eyebrow">A WARM WELCOME</p><h3>The Haveli Room</h3></div><div class="room-price">₹14,500 <small>/ night</small></div></div>
+            <p class="room-description">Thoughtful comforts, rose-hued details and space to exhale.</p><button class="choose-room" data-room="haveli">MAKE IT YOURS <span>↗</span></button>
+          </article>
+          <article class="room-card">
+            <div class="room-image"><img src="https://images.unsplash.com/photo-1616486338812-3dadae4b4ace?auto=format&fit=crop&w=1100&q=85" alt="Elegant suite with rich textures and inviting seating"><span class="room-number">02</span><span class="room-tag">GUEST FAVOURITE</span></div>
+            <div class="room-info"><div><p class="eyebrow">A LITTLE MORE ROOM</p><h3>The Maharani Suite</h3></div><div class="room-price">₹22,000 <small>/ night</small></div></div>
+            <p class="room-description">A grand, sunlit suite with handpicked art and a private sitting room.</p><button class="choose-room" data-room="maharani">MAKE IT YOURS <span>↗</span></button>
+          </article>
+          <article class="room-card">
+            <div class="room-image"><img src="https://images.unsplash.com/photo-1590490360182-c33d57733427?auto=format&fit=crop&w=1100&q=85" alt="Peaceful luxury guest room with soft natural light and classic decor"><span class="room-number">03</span></div>
+            <div class="room-info"><div><p class="eyebrow">A PRIVATE ESCAPE</p><h3>The Sheesh Mahal</h3></div><div class="room-price">₹31,500 <small>/ night</small></div></div>
+            <p class="room-description">A palatial hideaway of intricate detail, deep calm and timeless charm.</p><button class="choose-room" data-room="sheesh">MAKE IT YOURS <span>↗</span></button>
+          </article>
+        </div>
+        <button class="carousel-arrow next" aria-label="Scroll rooms right">→</button>
+      </div>
+      <div class="carousel-footer"><span>THREE WAYS TO FEEL AT HOME</span><div class="carousel-dots"><i class="active"></i><i></i><i></i></div></div>
+    </section>
+
+    <section class="quote-band reveal"><span class="quote-flower">✳</span><p>“A little bit of Jaipur,<br><em>a lot of heart.”</em></p><span class="quote-credit">THE PRATYAKSH PROMISE</span></section>
+
+    <section class="experiences section-pad" id="experiences">
+      <div class="section-heading reveal"><div><span class="eyebrow"><span>✳</span> THE GOOD STUFF</span><h2>Days that feel<br><em>like yours.</em></h2></div><p>Follow your curiosity. Or don't. The best moments here have a way of finding you.</p></div>
+      <div class="experience-grid">
+        <article class="experience-card exp-tall reveal"><img src="https://images.unsplash.com/photo-1540555700478-4be289fbecef?auto=format&fit=crop&w=1200&q=85" alt="Calm spa treatment room with soft natural light"><div class="exp-overlay"><span>01 / RESTORE</span><h3>The quiet<br>of the spa.</h3><a href="#booking" aria-label="Ask about spa experiences">↗</a></div></article>
+        <article class="experience-card reveal"><img src="https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=1100&q=85" alt="Warmly lit restaurant set for a memorable dinner"><div class="exp-overlay"><span>02 / GATHER</span><h3>At the table,<br>together.</h3><a href="#booking" aria-label="Ask about dining experiences">↗</a></div></article>
+        <article class="experience-card reveal"><img src="https://images.unsplash.com/photo-1533105079780-92b9be482077?auto=format&fit=crop&w=1100&q=85" alt="A peaceful courtyard pool surrounded by sunlit architecture"><div class="exp-overlay"><span>03 / WANDER</span><h3>Jaipur, at<br>your own pace.</h3><a href="#booking" aria-label="Ask about Jaipur experiences">↗</a></div></article>
+      </div>
+      <div class="experience-note"><span>✳</span> SPA RITUALS <i>·</i> COURTYARD DINING <i>·</i> OLD CITY WALKS <i>·</i> SUNRISE YOGA <span>✳</span></div>
+    </section>
+
+    <section class="booking-section" id="booking">
+      <div class="booking-image"><img src="https://images.unsplash.com/photo-1566073771259-6a8506099945?auto=format&fit=crop&w=1400&q=85" alt="Grand heritage hotel exterior with tranquil water and inviting warm light"><div class="image-label">YOUR JAIPUR STORY STARTS HERE</div></div>
+      <div class="booking-panel">
+        <span class="eyebrow light"><span>✳</span> LET'S MAKE A LITTLE MAGIC</span>
+        <h2>Come stay<br><em>a while.</em></h2>
+        <p class="booking-intro">Tell us what you have in mind. We’ll take care of the rest.</p>
+        <form id="bookingForm">
+          <label class="field full-field">YOUR ROOM<select name="room" id="roomSelect" required><option value="haveli">The Haveli Room — ₹14,500 / night</option><option value="maharani">The Maharani Suite — ₹22,000 / night</option><option value="sheesh">The Sheesh Mahal — ₹31,500 / night</option></select></label>
+          <div class="form-row"><label class="field">CHECK IN<input type="date" name="checkIn" id="checkIn" required></label><label class="field">CHECK OUT<input type="date" name="checkOut" id="checkOut" required></label></div>
+          <div class="form-row"><label class="field">GUESTS<select name="guests" id="guestCount"><option value="1">1 guest</option><option value="2" selected>2 guests</option><option value="3">3 guests</option><option value="4">4 guests</option><option value="5">5 guests</option><option value="6">6 guests</option><option value="7">7 guests</option><option value="8">8 guests</option></select></label><div class="field total-field"><span>YOUR ESTIMATED TOTAL</span><strong id="totalPrice">₹14,500</strong><small id="nightCount">Choose your dates</small></div></div>
+          <label class="field">YOUR NAME<input type="text" name="name" autocomplete="name" placeholder="As you'd like us to know you" required></label>
+          <div class="form-row"><label class="field">EMAIL ADDRESS<input type="email" name="email" autocomplete="email" placeholder="you@example.com" required></label><label class="field">PHONE NUMBER<input type="tel" name="phone" autocomplete="tel" placeholder="+91" required></label></div>
+          <button class="button button-gold submit-booking" type="submit">REQUEST YOUR STAY <span>↗</span></button>
+          <p class="form-message" id="formMessage" role="status" aria-live="polite"></p>
+          <p class="booking-footnote">A stay request isn't a charge. Our team will be in touch to confirm.</p>
+        </form>
+      </div>
+    </section>
+
+    <section class="journal section-pad" id="journal"><div class="journal-top reveal"><span class="eyebrow"><span>✳</span> POSTCARDS FROM JAIPUR</span><a class="text-link" href="#home">A FEW MORE MOMENTS <span>⟶</span></a></div><div class="journal-row"><p class="journal-word reveal">The art<br>of being <em>here.</em></p><img class="journal-img reveal" src="https://images.unsplash.com/photo-1599661046827-dacff0c0f09a?auto=format&fit=crop&w=1100&q=85" alt="Historic Rajasthani palace architecture glowing in the golden evening sun"><div class="journal-caption">SOMEWHERE IN THE PINK CITY <span>✳</span></div></div></section>
+  </main>
+  <footer class="site-footer"><div class="footer-main"><a class="brand footer-brand" href="#home"><span class="brand-mark">P</span><span class="brand-name">PRATYAKSH<small>HOTEL &amp; SPA · JAIPUR</small></span></a><p>A softer side of the Pink City.<br>Come as you are. Leave a little lighter.</p><a class="footer-email" href="mailto:hello@pratyakshjaipur.com">SAY HELLO <span>↗</span></a></div><div class="footer-bottom"><span>© 2025 PRATYAKSH HOTEL &amp; SPA</span><span>JAIPUR, RAJASTHAN · INDIA</span><a href="#home">BACK TO THE TOP ↑</a></div></footer>
+</body>
+</html>
