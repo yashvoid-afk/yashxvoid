@@ -17,9 +17,9 @@ services:
         sync: false
       - key: ADMIN_PASSWORD
         sync: false
-  - type: pserv
-    name: pratyaksh-bookings
-    runtime: postgres
-    plan: basic-256mb
+
+databases:
+  - name: pratyaksh-bookings
     databaseName: pratyaksh
     user: pratyaksh
+    plan: basic-256mb
